@@ -1,0 +1,46 @@
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    body {
+      background: #f1f1f1;
+    }
+
+    .input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+	color: #f1901e !important;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+     border-bottom: 1px solid #f1901e !important;
+     box-shadow: 0 1px 0 0 #f1901e !important;
+    }
+
+	.btn{
+ background:#f1901e !important;
+}
+
+    h5{
+    color:#4f4f4f;
+    }
+button#signin{
+	background: transparent;
+	border:0;
+	text-transform:uppercase;
+}
+button#signin span.dijitToggleButtonIconChar{ display:none!important; }
+
+.Convergence-Login-Notification {
+color: #f1901e;
+}
